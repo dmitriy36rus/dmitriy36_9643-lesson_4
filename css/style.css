@@ -1,0 +1,152 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap");
+@font-face{
+    font-family:"ZenOldMincho";
+    src:url("../fonts/ZenOldMincho-Regular.woff2") format("woff2"), url("../fonts/ZenOldMincho-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "ZenOldMincho";
+    src:url("../fonts/ZenOldMincho-Bold.woff2") format("woff2"), url("../fonts/ZenOldMincho-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "ZenOldMincho";
+    src:url("../fonts/ZenOldMincho-Black.woff2") format("woff2"), url("../fonts/ZenOldMincho-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "Comforter";
+    src:url("../fonts/Comforter-Regular.woff2") format("woff2"), url("../fonts/Comforter-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-family: "ZenOldMincho", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: rgba(153, 245, 252, 0.856);
+    
+}
+h1{
+    font-family: "caveat";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 8px yellow;
+}
+h2{
+    font-family: "caveat";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: green;
+    text-align: center;
+}
+h3{
+    font-family: "caveat";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(204, 201, 32);
+    text-align: center;
+}
+h4{
+    font-family: "caveat";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(212, 19, 230);
+    text-align: center;
+}
+.navmenu{
+    font-family: "comforter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(255, 136, 0);
+    text-align: left;
+}
+.navmenu .text{
+    font-family: "comforter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(255, 0, 200);
+    text-decoration: overline;
+}
+ul.point>li{
+    font-family: "caveat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+.image{
+    text-align: center;
+}
+#a7{
+    text-transform: capitalize;
+    color:rgb(19, 23, 248);
+    text-align: right;
+    font-weight: 900;
+}
+li span{
+    font-family: "comforter";
+    font-weight: 700;
+    color: red;
+}
+span.blue{
+    color: blue;
+    font-family: "caveat";
+    text-transform: uppercase;
+}
+.next-text + p{
+    font-weight: 900;
+    color:rgb(255, 136, 0);
+}
+.next-text{
+    color: blue;
+    line-height: 2;
+}
+ol>li{
+    color: orangered;
+    font-family: "caveat";
+    font-weight: 700;
+}
+.bold{
+    font-weight: 700;
+}
+ol ~ p{
+    font-weight: 900;
+    line-height: 3;
+}
+.navmenu.upper{
+    color:rgb(36, 11, 180);
+    font-weight: 700;
+}
+.ololo>li{
+    color:orangered;
+    text-shadow: 4px 4px 2px black;
+
+}
+.ololo~p{
+    text-indent: 20px;
+    text-decoration: underline;
+}
+.lesson{
+    font-family: "caveat";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(151, 179, 28);
+}

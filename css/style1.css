@@ -1,0 +1,42 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+body{
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+h1{
+    font-size: 46px;
+    font-weight: 900;
+    height: 120px;
+    width: 810px;
+}
+.image-object{
+    width: 810px;
+    height: 360px;
+}
+.part1{
+    width: 810px;
+}
+.bold{
+    font-weight: 700;
+}
+.big-text{
+    font-size: 20px;
+}
+.grey{
+    color: #424551
+}
+.new-size, .new-size1, .new-size2{
+    width: 810px;
+}
+.new-size{
+    height: 120px;
+}
+.new-siz1{
+    height: 52px;
+}
+.new-siz2{
+    height: 104px;
+}
